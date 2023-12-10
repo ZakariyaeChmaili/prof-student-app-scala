@@ -9,6 +9,10 @@ trait IMainService[T] {
 
     def add(item : T) : Option[T]
 
+    def update(item : T) : Option[T]
+
+    def show(Uid : String ) : Option[T]
+
 
 
 }
